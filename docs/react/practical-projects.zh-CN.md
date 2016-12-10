@@ -73,7 +73,7 @@ $ npm install antd babel-plugin-import --save
 新建 route component `routes/Products.js`，内容如下：
 
 ```javascript
-import React from 'react';
+import * as React from 'react';
 
 const Products = (props) => (
   <h2>List of Products</h2>
@@ -178,7 +178,7 @@ dva 提供了 connect 方法。如果你熟悉 redux，这个 connect 就是 rea
 编辑 `routes/Products.js`，替换为以下内容：
 
 ```javascript
-import React from 'react';
+import * as React from 'react';
 import { connect } from 'dva';
 import ProductList from '../components/ProductList';
 

@@ -73,7 +73,7 @@ We need to write an application displaying the list of products. The first step 
 Create a route component `routes/Products.js`:
 
 ```javascript
-import React from 'react';
+import * as React from 'react';
 
 const Products = (props) => (
   <h2>List of Products</h2>
@@ -178,7 +178,7 @@ dva provides a `connect` method. If you are familiar with redux, this `connect` 
 Edit `routes/Products.js` and replace with following:
 
 ```javascript
-import React from 'react';
+import * as React from 'react';
 import { connect } from 'dva';
 import ProductList from '../components/ProductList';
 

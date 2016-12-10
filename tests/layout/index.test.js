@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import TestUtils from 'react-addons-test-utils';
 
 const { Col, Row } = require('../../components/grid/index');

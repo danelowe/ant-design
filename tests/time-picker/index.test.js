@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { mount, render } from 'enzyme';
 import { renderToJson } from 'enzyme-to-json';
 import RcTimePicker from 'rc-time-picker/lib/TimePicker';

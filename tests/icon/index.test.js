@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import TestUtils from 'react-addons-test-utils';
 import { wrap } from 'react-stateless-wrapper';
 import AntIcon from '../../components/icon/index';

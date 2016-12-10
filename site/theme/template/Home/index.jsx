@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { injectIntl } from 'react-intl';
 import DocumentTitle from 'react-document-title';
 import Link from './Link';

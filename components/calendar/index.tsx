@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { PropTypes } from 'react';
 import moment from 'moment';
 import FullCalendar from 'rc-calendar/lib/FullCalendar';

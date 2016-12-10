@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { mount } from 'enzyme';
 import createStore from '../../components/table/createStore';
 import SelectionBox from '../../components/table/SelectionBox';

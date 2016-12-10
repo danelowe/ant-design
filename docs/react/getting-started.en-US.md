@@ -61,7 +61,7 @@ Replace the content of `index.js` with the following code.
 As you can see, there is no difference between antd's components and usual React components.
 
 ```jsx
-import React from 'react';
+import * as React from 'react';
 import ReactDOM from 'react-dom';
 import { DatePicker, message } from 'antd';
 

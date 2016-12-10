@@ -60,7 +60,7 @@ antd-init 会自动安装 npm 依赖，若有问题则可自行安装。
 直接用下面的代码替换 `index.js` 的内容，用 React 的方式直接使用 antd 组件。
 
 ```jsx
-import React from 'react';
+import * as React from 'react';
 import ReactDOM from 'react-dom';
 import { DatePicker, message } from 'antd';
 

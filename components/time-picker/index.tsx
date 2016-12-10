@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import moment from 'moment';
 import RcTimePicker from 'rc-time-picker/lib/TimePicker';
 import classNames from 'classnames';

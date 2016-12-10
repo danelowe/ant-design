@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import TweenOne from 'rc-tween-one';
 import { FormattedMessage } from 'react-intl';
 import ScrollOverPack from 'rc-scroll-anim/lib/ScrollOverPack';

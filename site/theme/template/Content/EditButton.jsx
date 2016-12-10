@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { Tooltip, Icon } from 'antd';
 
 const branchUrl = 'https://github.com/ant-design/ant-design/blob/master/';

@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { FormattedMessage, injectIntl } from 'react-intl';
 import { Select, Modal } from 'antd';
 import { version as antdVersion } from 'antd/package.json';
